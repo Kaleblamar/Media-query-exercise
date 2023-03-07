@@ -34,7 +34,11 @@ body {
 /* Q3 */
 @media (min-width: 600px) and (max-height: 400px) {
   #one {
-    border: 10px dashed grey;
+    /* border: 10px dashed grey; */
+    border: 10px solid;
+    padding: 10px;
+    border-image-source: linear-gradient(90deg, red, blue);
+    border-image-slice: 1;
   }
   #three {
     border: 10px dotted grey;
